@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Banking App</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="sidebar.css">
+  </head>
+<body>
+    <h1>Dobrodošli u Vašu banku!</h1>
+    <br>
+    <h2>Usluge</h2>
+    <div class="custom-select" style="width:200px;">
+      <select>
+        <option value="0">Odaberite uslugu</option>
+        <option value="1">Uplata</option>
+        <option value="2">Tekući račun</option>
+        <option value="3">Dinarski kredit</option>
+        <option value="4">Devizni kredit</option>
+        <option value="5">Isplata penzija</option>
+        <option value="6">Western union</option>
+        <option value="7">Token</option>
+        <option value="8">Politika privatnosti</option>
+        <option value="9">Hartije od vrednosti</option>
+        <option value="10">Fizička lica</option>
+        <option value="11">Pravna lica</option>
+        <option value="12">Ostalo</option>
+      </select>
+    </div>
+
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="#">O nama</a>
+      <a href="#">Servis</a>
+      <a href="#">Klijenti</a>
+      <a href="#">Kontakt</a>
+    </div>
+    <br>
+    <div id="main">
+      <button class="openbtn" onclick="openNav()"> Upoznajte nas</button>  
+     
+    </div>
+
+   <script src="script.js"></script>
+    <script src="open.js"></script>
+  </body>
+</html>
